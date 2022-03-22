@@ -2,7 +2,10 @@ module github.com/IllicLanthresh/pack-and-go
 
 go 1.17
 
-require github.com/labstack/echo/v4 v4.7.2
+require (
+	github.com/labstack/echo/v4 v4.7.2
+	github.com/mattn/go-sqlite3 v1.14.12
+)
 
 require (
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
