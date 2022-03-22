@@ -2,14 +2,6 @@
 
 package main
 
-type trip struct {
-	id            int32
-	originId      int32
-	destinationId int32
-	dates         string
-	price         float64
-}
-
 var trips = []trip{
 	{id: 1, originId: 1, destinationId: 2, dates: "Mon Tue Wed Fri", price: 40.55},
 	{id: 2, originId: 2, destinationId: 1, dates: "Sat Sun", price: 40.55},
